@@ -217,6 +217,10 @@ nav ul ul ul li
     color: black;
 }
 
+.strategy-section p,h3,h2,h4
+{
+    color: black;
+}
 /*Responsive-vertical-timeline-design*/
 
 .wrapper
