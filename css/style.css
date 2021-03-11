@@ -189,7 +189,11 @@ nav ul ul ul li
     text-transform: uppercase;
 }
 
-
+.contact-header
+{
+    color: #1e1e1e;
+    font-family: Poppins-Bold;
+}
 
 .main-section h1
 {

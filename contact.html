@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dist/css/ckin.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">
+        <a href="index.html">
+            <i class="fa fa-bookmark pr-2" aria-hidden="true"></i>  DigitalStorm
+        </a>
+    </div>
+    <label for="btn" class="icon">web developer
+        <span class="fa fa-bars"></span>
+    </label>
+    <input type="checkbox" id="btn">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="strategy.html">Digital Strategy</a></li>
+        <li>
+            <label for="btn-2" class="show">What we do + </label>
+            <a href="#">What we do <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+            <input type="checkbox" id="btn-2">
+            <ul>
+                <li><a href="whatwedo/seo.html">SEO</a></li>
+                <li><a href="whatwedo/analytics.html">Analytics</a></li>
+                <li><a href="whatwedo/social-media-advertising.html"> Soc.. Media Advertising </a></li>
+                <li><a href="whatwedo/web-development.html">Web Development </a></li>
+            </ul>
+        </li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+
+<h1 class="text-center text-black mt-5 contact-header">Ready to Get Started?</h1>
+
+
+<div class="container">
+    <form  action="https://formspree.io/f/mpzovpdv"
+           method="POST" id="my-form">
+        <div class="form-group">
+            <label>First Name</label>
+            <input type="text" name="firstname" id="firstname" class="form-control"   placeholder="First Name">
+        </div>
+        <div class="form-group">
+            <label>Last Name</label>
+            <input type="text" name="lastname" id="lastname" class="form-control"   placeholder="Last Name">
+        </div>
+        <div class="form-group">
+            <label>Your Email</label>
+            <input type="email" name="email" id="email" class="form-control"   placeholder="Your email">
+        </div>
+        <div class="form-group">
+            <label>Company Name</label>
+            <input type="text" name="compnyname" id="companyname" class="form-control"   placeholder="Company Name">
+        </div>
+        <div class="form-group">
+            <label>Company Email</label>
+            <input type="text" name="compnyemail" id="companyemail" class="form-control"   placeholder="Company Email">
+        </div>
+        <div class="form-group">
+            <textarea class="form-control" name="message"  id="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark btn-lg">Submit</button>
+    </form>
+</div>
+
+
+<div class="container mt-4">
+    <div class="alert-success" id="my-form-status">
+    </div>
+</div>
+
+
+
+
+
+
+
+<!--footer-->
+
+<div class="footer">
+    <p class="footer-text">Copyright  ©  2021 DigitalStorm marketing.  All rights reserved</p>
+</div>
+
+<script src="dist/js/main.js"></script>
+</body>
+</html>
